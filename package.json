@@ -1,0 +1,33 @@
+{
+  "name": "jquery-text-adventure",
+  "title": "jQuery Text Adventure",
+  "version": "0.0.1",
+  "description": "A multiple-choice text adventure jQuery plugin game.",
+  "main": "dist/textadventure.js",
+  "author": {
+    "name": "Jeremy Rue",
+    "email": "jrue@berkeley.edu",
+    "website": "https://github.com/jrue"
+  },
+  "keywords":[
+    "text adventure",
+    "jquery",
+    "plugin",
+    "game"
+  ],
+  "repository" :
+  { 
+    "type" : "git", 
+    "url" : "https://github.com/jrue/text-adventure.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "grunt-bower-task": "^0.4.0",
+    "grunt-bumpup": "^0.6.2",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-contrib-uglify": "^0.8.0"
+  }
+}

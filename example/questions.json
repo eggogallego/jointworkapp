@@ -1,0 +1,74 @@
+{
+    "title": "Text Adventure Game",
+    "description": "Here is a description",
+    "questions": [
+    
+        {
+            "id": "intro",
+            "text": "You're a reporter, sitting in an office. Suddenly, news of a shooting screeches across the police scanner. What do you do?",
+            "image": "https://farm8.staticflickr.com/7453/9503788874_e01df164a5_n.jpg",
+            "options": [
+                {
+                    "text": "Pick up the phone",
+                    "goto": "phonecall"
+                },
+                {
+                    "text": "Talk to editor",
+                    "goto": "editortalk"
+                }
+            ]
+        },
+
+        {
+            "id": "phonecall",
+            "text": "You're on the phone with a source at the P.D. She tells you some serious things are going down in the P.D.",
+            "image": "http://placehold.it/500x200",
+            "options": [
+                {
+                    "text": "Tell your editor",
+                    "goto": "editortalk"
+                },
+                {
+                    "text": "Ignore the source",
+                    "goto": "followUpOnTips"
+                }
+            ]
+        },
+
+        {
+            "id": "followUpOnTips",
+            "text": "You should really follow up on tips. While they might not be accurate, they can sometimes be real.",
+            "options": [
+                {
+                    "text": "Go back",
+                    "goto": "goback"
+                }
+            ]
+        },
+
+        {
+            "id": "editortalk",
+            "text": "Your editor helps you find the next steps in your reporting.",
+            "image": "http://placehold.it/500x200",
+            "options": [
+                {
+                    "text": "Go after the story",
+                    "goto": "done"
+                }
+            ]
+        },
+
+        {
+            "id": "done",
+            "text": "Congrats, you got the story",
+            "image": "http://placehold.it/500x200",
+            "options" : [
+                {
+                    "text": "Restart Game",
+                    "goto": "reset"
+                }
+            ]
+        }
+
+    ]
+}

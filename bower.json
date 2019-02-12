@@ -1,0 +1,26 @@
+{
+  "name": "text-adventure",
+  "title": "JQuery Text Adventure",
+  "version": "0.0.1",
+  "authors": [
+    "Jeremy Rue <jrue@berkeley.edu>"
+  ],
+  "description": "A multiple-choice text adventure jQuery plugin.",
+  "main": "dist/textadventure.js",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "package.json",
+    "Gruntfile.js",
+    "bower.json"
+  ],
+  "dependencies": {
+    "jquery": ">=1.7",
+    "bootstrap": ">=3.0"
+  }
+}
